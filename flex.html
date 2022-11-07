@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.box{
+        position: absolute;
+        animation: myanim 10s ,
+                   mymove 10s;
+                   animation-iteration-count: infinite;
+        
+    }
+    @keyframes myanim {
+        0%{
+            transform: rotate(90deg);
+        }
+        75%{
+            transform: rotate(360deg);
+    
+        }
+        100%{
+            transform: rotate(0deg);
+    
+        }
+        
+    }
+    @keyframes mymove {
+        0%{
+           margin-left: 0rem; 
+        }
+        75%{
+            margin-left: 75rem; 
+    
+        }
+        100%{
+            margin-left: 0rem; 
+    
+        }
+    }
+    /* @media (max-width: 600px) {
+        .box{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+        animation: myanim 10s ,
+                   mymove 10s;
+        } */
+        /* @keyframes myanim {
+            0%{
+                transform: rotate(90deg);
+            }
+            75%{
+                transform: rotate(360deg);
+        
+            }
+            100%{
+                transform: rotate(0deg);
+        
+            }
+            
+        } */
+        /* @keyframes mymove {
+            0%{
+               margin-top: 0rem; 
+            }
+            75%{
+                margin-top: 75rem; 
+        
+            }
+            100%{
+                margin-top: 0rem; 
+        
+            }
+        } */
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+   <div class="ball">
+       <img src="https://us.123rf.com/450wm/alekss/alekss1601/alekss160100204/50629846-soccer-ball-isolated-on-white.jpg?ver=6" >
+   </div>
+</div>
+</body>
+</html>
